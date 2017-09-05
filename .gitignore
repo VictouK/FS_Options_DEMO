@@ -4,6 +4,9 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/ZenStudio_RIFT/Library
+/ZenStudio_RIFT/obj
+/ZenStudio_RIFT/Temp
 
 # Visual Studio 2015 cache directory
 /.vs/
