@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: c32bde01f665b494a87f32cd0da138a5
+timeCreated: 1504728475
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fb_panel_up
+    21300002: fb_panel_down
+    21300004: Dress1Black
+    21300006: FB_Spaces_RuffleSleeve_Blue
+    21300008: FB_Spaces_MaggyLondon_Black
+    21300010: FB_Spaces_MaggyLondon_Marron
+    21300012: FB_Spaces_CharlesHenryDressBlack
+    21300014: FB_Spaces_CharlesHenryDressBlue
+    21300016: FB_Spaces_CharlesHenryDressMaroon
+    21300018: FB_Spaces_CharlesHenryDressPink
+    21300020: FB_Spaces_CharlesHenryDressHotPink
+    21300022: FB_Spaces_CharlesHenryDressTurqoise
+    21300024: FBSpaces_FBLogo
+    21300026: FBSpaces_ToolsLogo
+    21300028: FBSpaces_FriendsLogo
+    21300030: FBSpaces_AppearanceLogo
+    21300032: FBSpaces_Settings
+    21300034: FBSpaces_Painting
+    21300036: FBSpaces_Move
+    21300038: FBSpaces_PanelUp
+    21300040: FBSpaces_PanelDown
+    21300042: FB_Spaces_RuffleSleeve_Black
+    21300044: FBSpaces_TableLogo
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.49999997, y: 0.36394563}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FBSpaces_PanelUp
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 929
+        width: 137
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_PanelDown
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 929
+        width: 137
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_RuffleSleeve_Black
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 780
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_RuffleSleeve_Blue
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 780
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_MaggyLondon_Black
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 655
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_MaggyLondon_Marron
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 655
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_CharlesHenryDressBlack
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 528
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_CharlesHenryDressBlue
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 528
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_CharlesHenryDressMaroon
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 528
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_CharlesHenryDressPink
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 528
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_CharlesHenryDressHotPink
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 528
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FB_Spaces_CharlesHenryDressTurqoise
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 528
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_FBLogo
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 282
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_ToolsLogo
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 282
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_FriendsLogo
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 282
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_AppearanceLogo
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 282
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_Settings
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 36
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_Painting
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 36
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_Move
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 36
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FBSpaces_TableLogo
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 36
+        width: 204
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
