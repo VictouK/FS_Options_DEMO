@@ -4,10 +4,10 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
-/FS_Options_DEMO/Library
-/FS_Options_DEMO/obj
-/FS_Options_DEMO/Temp
-
+/FbSpacesDemoStore/Library
+/FbSpacesDemoStore/obj
+/FbSpacesDemoStore/Temp
+/FbSpacesDemoStore/Assets/AssetStoreTools*
 # Visual Studio 2015 cache directory
 /.vs/
 
