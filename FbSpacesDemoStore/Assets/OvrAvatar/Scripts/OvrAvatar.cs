@@ -517,6 +517,7 @@ public class OvrAvatar : MonoBehaviour
         inputState.indexTrigger = pose.indexTrigger;
         inputState.handTrigger = pose.handTrigger;
         inputState.isActive = pose.isActive;
+
         return inputState;
     }
 

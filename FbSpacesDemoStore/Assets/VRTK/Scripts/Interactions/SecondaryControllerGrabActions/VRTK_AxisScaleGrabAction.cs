@@ -81,6 +81,8 @@ namespace VRTK.SecondaryControllerGrabActions
 
             if (finalScaleX > 0 && finalScaleY > 0 && finalScaleZ > 0)
             {
+				if (finalScaleX >= 2f || finalScaleY >= 2f || finalScaleZ >= 2f)
+					return;
                 grabbedObject.transform.localScale = new Vector3(finalScaleX, finalScaleY, finalScaleZ); ;
             }
         }

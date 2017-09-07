@@ -7,6 +7,9 @@ public class DressRotation : MonoBehaviour {
 	public VRTK_InteractableObject VRGrabObject;
 	private bool RotateDresses = false;
 	public GameObject ParentObject;
+	public VRTK_ControllerEvents VRCONTROLLER;
+
+
 	void Start (){
 		
 	}
@@ -18,6 +21,8 @@ public class DressRotation : MonoBehaviour {
 		} else if(RotateDresses == false){
 			
 		}
+
+
 
 	}
 
