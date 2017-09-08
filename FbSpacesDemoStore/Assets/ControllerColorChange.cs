@@ -21,6 +21,8 @@ public class ControllerColorChange : MonoBehaviour {
 	public SpriteRenderer[] RuffleSprites;
 	public Sprite[] RuffleSpriteChange;
 
+	public Animator _FBPANEL;
+	private bool fbpanelAnimation = false;
 	void Start () {
 		
 	}
@@ -37,6 +39,7 @@ public class ControllerColorChange : MonoBehaviour {
 				FirstMaggyLondonDress ();
 				SecondCharleysDress ();
 				RuffleDress ();
+				fbpanelAnimationFunc ();
 				i++;
 			}
 
@@ -47,6 +50,7 @@ public class ControllerColorChange : MonoBehaviour {
 				FirstMaggyLondonDress ();
 				SecondCharleysDress ();
 				RuffleDress ();
+				fbpanelAnimationFunc ();
 				i++;
 			}
 		}
@@ -103,6 +107,20 @@ public class ControllerColorChange : MonoBehaviour {
 		if (hitColliders[i].tag == "FB_Spaces_RuffleSleeve_Blue") {
 			Ruffle.GetComponent<Renderer> ().material.SetColor ("_Color", new Color32(2,72,145,184));
 			RuffleSprites [0].sprite = RuffleSpriteChange [1];
+		}
+	}
+
+	float newtime;
+	void fbpanelAnimationFunc(){
+		if (hitColliders[i].tag == "PanelUp" && Time.time > newtime) {
+			newtime = Time.time + 1f;
+			if (fbpanelAnimation == false) {
+				_FBPANEL.SetBool ("FBOX", true);
+				fbpanelAnimation = true;
+			} else {
+				_FBPANEL.SetBool ("FBOX", false);
+				fbpanelAnimation = false;
+			}
 		}
 	}
 }

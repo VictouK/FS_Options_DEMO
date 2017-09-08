@@ -6,6 +6,11 @@ public class TableColorChange : MonoBehaviour {
 
 	public GameObject [] ALLDressColorsObjects;
 	public GameObject[] ALLDressColors;
+
+
+	void Start(){
+		AllDressColorsFalse ();
+	}
 	void OnTriggerStay(Collider coll){
 		
 		if (coll.gameObject.tag == "FB_Spaces_MaggyLondon") {

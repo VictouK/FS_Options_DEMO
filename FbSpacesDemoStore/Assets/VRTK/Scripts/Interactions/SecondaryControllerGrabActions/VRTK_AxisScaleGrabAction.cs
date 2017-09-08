@@ -79,9 +79,9 @@ namespace VRTK.SecondaryControllerGrabActions
             float finalScaleY = (lockYAxis ? existingScale.y : newScale.y);
             float finalScaleZ = (lockZAxis ? existingScale.z : newScale.z);
 
-            if (finalScaleX > 0 && finalScaleY > 0 && finalScaleZ > 0)
+            if (finalScaleX > 1f && finalScaleY > 1f && finalScaleZ > 1f)
             {
-				if (finalScaleX >= 2f || finalScaleY >= 2f || finalScaleZ >= 2f)
+				if (finalScaleX >= 2.5f || finalScaleY >= 2.5f || finalScaleZ >= 2.5f)
 					return;
                 grabbedObject.transform.localScale = new Vector3(finalScaleX, finalScaleY, finalScaleZ); ;
             }
